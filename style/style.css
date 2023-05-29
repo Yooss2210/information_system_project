@@ -14,7 +14,7 @@ body{
 }
 
 :root{
-    --primary_color : #CDF0EA;
+    --primary_color : #8EC3B0;
     --secundary_color: #F9F9F9;
     --hover_color: #9ED5C5;
     --pagination_title_button_color: #8EC3B0;
@@ -24,6 +24,7 @@ body{
     position: relative;
     width: 100% ;
 }
+
 
 /*Barra de navegacion   #92B4EC   #CDF0EA;*/
 .nav{
@@ -72,6 +73,20 @@ body{
     display: flex;
     text-decoration: none;
     color: var(--secundary_color);
+}
+
+/*Iconos*/
+.nav ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.nav ul li a .icon ion-icon{
+    font-size: 1.5em;
 }
 
 /*Barra de navegacion  CUANDO EL USUARIO HAGA CLICK ACTIVO*/
