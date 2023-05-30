@@ -6,5 +6,7 @@ for (let i=0; i<list.length; i++){
             list[j++].className = 'list';
         }
         list[i].className = 'list active'
+        
     }
 } 
+
