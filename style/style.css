@@ -153,3 +153,12 @@ body{
     color: var(--pagination_title_button_color)
 }
 
+/*Datos localidad*/
+
+.Estado, .Municipio, .Parroquia{
+    padding-bottom: 50px;
+}
+
+.Estado div, .Municipio div, .Parroquia div{
+    padding-bottom: 20px;
+}
