@@ -58,29 +58,14 @@
             <div class="form">
                 <form class="row g-3">
                     <form class="needs-validation" novalidate>
-                        <div class="col-md-4">
-                            <label for="validationCustom01" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="validationCustom01" value="" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
 
                         <div class="col-md-4">
-                            <label for="validationCustom02" class="form-label">Codigo</label>
-                            <input type="text" class="form-control" id="validationCustom02" value="" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <label for="validationCustom03" class="form-label">Tipo</label>
+                            <label for="validationCustom01" class="form-label">Carro funebre</label>
                             <div class="input-group has-validation">
-                                <select class="form-select" id="validationCustom03" required>
+                                <select class="form-select" id="validationCustom01" required>
                                     <option selected disabled value="">Elegir...</option>
-                                    <option>Publico</option>
-                                    <option>Privado</option>
+                                    <option>Si</option>
+                                    <option>No</option>
                                 </select>
                                 <div class="invalid-feedback">
                                     Please choose a username.
@@ -88,43 +73,89 @@
                             </div>
                         </div>
 
-                        <!-- Direcciones -->
-
-                        <!-- Direccion -->
-                        <div class="col-12">
-                            <label for="inputAddress" class="form-label">Direccion</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="Ej. La Vela centro comercial, boulevard gastronómico" required>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Sillas</label>
+                            <input type="number" class="form-control" id="validationCustom02" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
                         </div>
 
-                        <!--Municipio-->
+                        <div class="col-md-4">
+                            <label for="validationCustom03" class="form-label">Servicio en casa</label>
+                            <div class="input-group has-validation">
+                                <select class="form-select" id="validationCustom03" required>
+                                    <option selected disabled value="">Elegir...</option>
+                                    <option>Si</option>
+                                    <option>No</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="validationCustom04" class="form-label">Urna</label>
+                            <div class="input-group has-validation">
+                                <select class="form-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Elegir...</option>
+                                    <option>Si</option>
+                                    <option>No</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="col-md-6">
-                            <label for="validationCustom04" class="form-label">Municipio</label>
-                            <select class="form-select" id="validationCustom04" required>
+                            <label for="validationCustom05" class="form-label">Capilla</label>
+                            <div class="input-group has-validation">
+                                <select class="form-select" id="validationCustom05" required>
+                                    <option selected disabled value="">Elegir...</option>
+                                    <option>Si</option>
+                                    <option>No</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="validationCustom06" class="form-label">Cremación</label>
+                            <div class="input-group has-validation">
+                                <select class="form-select" id="validationCustom06" required>
+                                    <option selected disabled value="">Elegir...</option>
+                                    <option>Si</option>
+                                    <option>No</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7">
+                            <label for="validationCustom07" class="form-label">Misa</label>
+                            <select class="form-select" id="validationCustom07" required>
                                 <option selected disabled value="">Elegir...</option>
-                                <option>Antolin del campo</option>
-                                <option>Arismendi</option>
-                                <option>Diaz</option>
-                                <option>Garcia</option>
-                                <option>Gomez</option>
-                                <option>Maneiro</option>
-                                <option>Marcano</option>
-                                <option>Mariño</option>
-                                <option>Peninsula de Macanao</option>
-                                <option>Tubores</option>
-                                <option>Villalba</option>
+                                <option>Si</option>
+                                <option>No</option>
                             </select>
                             <div class="invalid-feedback">
                                 Por favor introduzca un municipio valido.
                             </div>
                         </div>
 
-
-                        <!--Estados-->
                         <div class="col-md-3">
-                            <label for="validationCustom05" class="form-label">Estado</label>
-                            <select class="form-select" id="validationCustom05" required>
+                            <label for="validationCustom08" class="form-label">Traslado</label>
+                            <select class="form-select" id="validationCustom08" required>
                                 <option selected disabled value="">Elegir...</option>
-                                <option>Nueva Esparta</option>
+                                <option>Local</option>
+                                <option>Nacional</option>
+                                <option>Internacional</option>
                             </select>
                             <div class="invalid-feedback">
                                 Por favor introduzca un estado valido.
@@ -132,12 +163,16 @@
                         </div>
 
 
-                        <!--Codigo Postal-->
                         <div class="col-md-3">
-                            <label for="validationCustom06" class="form-label">Codigo postal</label>
-                            <input type="text" class="form-control" id="validationCustom06" required>
+                            <label for="validationCustom09" class="form-label">Prepación del difunto</label>
+                            <select class="form-select" id="validationCustom09" required>
+                                <option selected disabled value="">Elegir...</option>
+                                <option>24H</option>
+                                <option>48H</option>
+                                <option>64H</option>
+                            </select>
                             <div class="invalid-feedback">
-                                Por favor introduzca un codigo postal valido.
+                                Por favor introduzca un estado valido.
                             </div>
                         </div>
 
@@ -161,9 +196,8 @@
                 </li>
                 <li class="page-item"><a class="page-link" href="/Datos Maestros/cementerio/datos_cementerio.html">1</a></li>
                 <li class="page-item"><a class="page-link" href="/Datos Maestros/funeraria/datos_funeraria.html">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="/Datos Maestros/servicios prestados/datos_servicios.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="/Datos Maestros/Localidad/datos_localidad.html">4</a></li>
                 <li class="page-item">
                 </li>
             </ul>
