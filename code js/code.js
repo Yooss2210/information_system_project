@@ -10,3 +10,26 @@ for (let i=0; i<list.length; i++){
     }
 } 
 
+//Codigo para cuando el usuario elija el estado le muestre los municipios de ese estado
+const estadosMunicipios = {
+    "Nueva Esparta": ["Arismendi", "Diaz", "Garcia", "Gomez", "Maneiro", "Marcano", "Mariño", "Peninsula de Macanao", "Tubores", "Villalba"]
+}
+
+    const inputEstados = document.querySelector('#input-estados');
+    const inputMunicipios = document.querySelector('#input-municipios');
+    
+    inputEstados.addEventListener('change', (event) => {
+        const estadoSeleccionado = event.target.value;
+        const municipios = estadosMunicipios[estadoSeleccionado];
+    
+        // Limpiar el contenido del input de municipios
+        inputMunicipios.innerHTML = '';
+    
+        // Agregar las opciones de municipios al input de municipios
+        for (const municipio of municipios) {
+            const option = document.createElement('option');
+            option.value = municipio;
+            option.textContent = municipio;
+            inputMunicipios.appendChild(option);
+        }
+});
