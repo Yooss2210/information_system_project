@@ -1,3 +1,5 @@
+//Activo en el menu
+
 let list = document.querySelectorAll('.list');
 for (let i=0; i<list.length; i++){
     list[i].onclick = function(){
@@ -33,3 +35,19 @@ const estadosMunicipios = {
             inputMunicipios.appendChild(option);
         }
 });
+
+
+//Formulario de datos personales, dependiendo de tipo de persona elija el usuario le muestra el formulario
+function mostrarFormulario() {
+    var tipoPersona = document.getElementById("tipo-persona").value;
+    if (tipoPersona === "natural") {
+        document.getElementById("formulario-natural").style.display = "block";
+        document.getElementById("formulario-juridica").style.display = "none";
+    } else if (tipoPersona === "juridica") {
+        document.getElementById("formulario-natural").style.display = "none";
+        document.getElementById("formulario-juridica").style.display = "block";
+    } else {
+        document.getElementById("formulario-natural").style.display = "none";
+        document.getElementById("formulario-juridica").style.display = "none";
+    }
+}

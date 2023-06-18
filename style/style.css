@@ -135,13 +135,13 @@ body{
     margin-top: 11rem;
 }
 
-/*Formulario*/
+/*Formularios*/
 .form{
     width: 70%;
     margin-left: 55px;
 }
 
-/*Boton*/
+/*Botones*/
 
 .btn-primary{
     background-color: var(--pagination_title_button_color) !important;
@@ -157,7 +157,7 @@ body{
     color: var(--pagination_title_button_color)
 }
 
-/*Datos localidad*/
+/*Datos localidad - Maestros*/
 
 .Estado, .Municipio, .Parroquia{
     padding-bottom: 30px;
@@ -166,3 +166,4 @@ body{
 .Estado div, .Municipio div, .Parroquia div{
     padding-bottom: 20px;
 }
+
