@@ -30,14 +30,13 @@ body{
 }
 
 
-/*Barra de navegacion   #92B4EC   #CDF0EA;*/
+/*Barra de navegacion*/
 .nav{
     position: fixed;
     top: 0px;
     left: 0px;
     bottom: 0px;
     width: 25rem;
-    border-radius: 10px;
     border-left: 5px solid var(--primary_color) ;
     background-color: var(--primary_color);
     transition: 0.5s;
@@ -125,6 +124,15 @@ body{
     color: var(--pagination_title_button_color);
     padding-bottom: 26px;
 }
+
+/*Boton agregar*/
+.agregarbtn{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2.5rem;
+    transform: translateX(-1rem);
+}
+
 
 /*-contenedor*/
 .datos{
